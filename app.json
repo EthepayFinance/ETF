@@ -1,0 +1,49 @@
+{
+    "expo": {
+        "name": "ETF-Earn-App",
+        "slug": "etf-earn-app",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/etf_logo.png",
+        "splash": {
+            "image": "./assets/etf_logo.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "android": {
+            "package": "com.etf.earnapp",
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/etf_logo.png",
+                "backgroundColor": "#ffffff"
+            }
+        },
+        "extra": {
+            "tokenName": "Edjenguele Theodore Finance Coin (ETF)",
+            "tokenLogo": "./assets/etf_logo.png",
+            "tonWalletAddress": "EQBKIDbqMa9S8qyUfOjsJboYynmsw9lb2xI-Xgiyn0snBNgk",
+            "conversion": {
+                "pointsPerETF": 100,
+                "etfPerTon": 0.1,
+                "tonPerETF": 10
+            },
+            "earnMechanics": {
+                "tap": "1 point per tap",
+                "channelVisit": "3 points per visit"
+            },
+            "swapping": "ETF <-> TON automatic in-app",
+            "walletOperations": {
+                "deposit": "Auto",
+                "withdraw": "Auto"
+            },
+            "telegramBot": "http://t.me/ETFEarnApp_bot",
+            "termsAndPrivacy": "https://t.me/+xl1IO71MbVY3ZjFk"
+        },
+        "description": "Earn ETF by tapping, visiting channels. Convert Points <-> ETF <-> TON. Auto deposit/withdraw/swap. Visit @ETFEarnApp_bot"
+    }
+}
